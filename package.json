@@ -14,11 +14,13 @@
     "cors": "^2.8.5",
     "dotenv": "^17.2.0",
     "express": "^5.1.0",
+    "knex": "^3.1.0",
     "mysql2": "^3.14.2"
   },
   "devDependencies": {
     "@types/body-parser": "^1.19.6",
     "@types/express": "^5.0.3",
+    "@types/knex": "^0.16.1",
     "@types/node": "^24.0.13",
     "nodemon": "^3.1.10",
     "ts-node": "^10.9.2",

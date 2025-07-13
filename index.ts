@@ -3,12 +3,14 @@ import bodyParser from "body-parser";
 import cors from "cors";
 import { Connection } from "mysql2/promise";
 const { connectMySQL } = require("./connection");
+require("dotenv").config();
 
 const app: Express = express();
 const port = process.env.PORT;
 
 app.use(bodyParser.json());
 app.use(cors());
+
 
 let connection: Connection;
 
